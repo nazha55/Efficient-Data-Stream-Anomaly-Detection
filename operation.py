@@ -20,7 +20,7 @@ def simulate_data_stream(n_points=1000):
     return transaction_stream
 
 # Step 2: Real-Time Anomaly Detection Using Z-Score
-def detect_anomalies(data_stream, threshold=11):
+def detect_anomalies(data_stream, threshold=3):
     """Detect anomalies in a data stream using Z-score."""
     mean = np.mean(data_stream)
     std_dev = np.std(data_stream)
