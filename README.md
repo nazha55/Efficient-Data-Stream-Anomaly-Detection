@@ -23,14 +23,9 @@ cd Efficient-Data-Stream-Anomaly-Detection
 Step 2: Install dependencies
 Ensure you have Python installed and then install the required dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Running the Project
 To run the anomaly detection and visualization tool, simply execute the main.py script:
-
-bash
-Copy code
 python main.py
 This will generate a real-time plot where the data stream is displayed, and anomalies are highlighted in red.
 
