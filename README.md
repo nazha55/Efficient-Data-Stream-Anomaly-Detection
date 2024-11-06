@@ -16,27 +16,26 @@ This project provides a real-time anomaly detection tool for continuous data str
 
 ### Step 1: Clone the repository
 Start by cloning this repository to your local machine:
-```bash
+```
 git clone https://github.com/nazha55/Efficient-Data-Stream-Anomaly-Detection.git
 cd Efficient-Data-Stream-Anomaly-Detection
-Step 2: Install dependencies
+```
+
+### Step 2: Install dependencies
 Ensure you have Python installed, then install the required dependencies with:
-
-bash
-Copy code
+```
 pip install -r requirements.txt
-Running the Project
+```
+## Running the Project
 To run the anomaly detection and visualization tool, execute the main.py script:
-
-bash
-Copy code
+```
 python main.py
+```
 This will generate a real-time plot displaying the data stream, with anomalies highlighted in red.
+## Customization
+**Threshold Sensitivity:** Modify the threshold parameter in operation.py to adjust the sensitivity of anomaly detection. Lower values make the system more sensitive to deviations, while higher values will detect fewer anomalies.
 
-Customization
-Threshold Sensitivity: Modify the threshold parameter in operation.py to adjust the sensitivity of anomaly detection. Lower values make the system more sensitive to deviations, while higher values will detect fewer anomalies.
+**Data Patterns:** Customize the behavior of the data stream (e.g., seasonal patterns, random noise) by adjusting the simulate_data_stream function in operation.py.
 
-Data Patterns: Customize the behavior of the data stream (e.g., seasonal patterns, random noise) by adjusting the simulate_data_stream function in operation.py.
-
-Conclusion
+## Conclusion
 This project offers an efficient and flexible tool for real-time anomaly detection in continuous data streams. The detection parameters and data patterns can be adjusted to suit your specific use case, whether for monitoring financial transactions, system performance, or any other data stream analysis.
