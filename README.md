@@ -24,7 +24,7 @@ Copy code
 pip install -r requirements.txt
 Running the Project
 To run the project, execute the main.py script:
-
+```
 bash
 Copy code
 python main.py
